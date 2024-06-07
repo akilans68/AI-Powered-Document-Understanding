@@ -13,6 +13,7 @@ Text Translation: Translates text to a specified language using Hugging Face's t
 # **Installation**
 
 # Install the required packages:
+
 #!apt-get update
 #!apt-get install -y tesseract-ocr
 #!apt-get install -y libtesseract-dev
@@ -26,6 +27,7 @@ Text Translation: Translates text to a specified language using Hugging Face's t
 #!pip install Pillow
 #pip install Translate
 #!pip install streamlit -q
+
 
 # Download the necessary NLTK data:
 
