@@ -15,17 +15,29 @@ Text Translation: Translates text to a specified language using Hugging Face's t
 # Install the required packages:
 
 #!apt-get update
+
 #!apt-get install -y tesseract-ocr
+
 #!apt-get install -y libtesseract-dev
+
 #!pip install fitz
+
 #!pip install pytesseract
+
 #pip install pymupdf
+
 #pip install pytesseract
+
 #!pip install spacy
+
 #!pip install transformers
+
 #!pip install pdf2image
+
 #!pip install Pillow
+
 #pip install Translate
+
 #!pip install streamlit -q
 
 
@@ -33,11 +45,12 @@ Text Translation: Translates text to a specified language using Hugging Face's t
 
 import nltk
 
-
 nltk.download('punkt')
 
 # Set up your Hugging Face API key:
+
 export HUGGING_FACE_API_KEY=your_api_key
+
 in the huggingface.co
 
 # **Components**
@@ -45,11 +58,17 @@ in the huggingface.co
 # This function converts the content of a PDF file to text.
 
 def convert_pdf_to_text(pdf_path):
+    
     doc = fitz.open(pdf_path)
+    
     text = ""
+    
     for page_num in range(len(doc)):
+        
         page = doc.load_page(page_num)
+        
         text += page.get_text()
+    
     return text
 
 # Image Extraction and OCR
