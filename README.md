@@ -232,3 +232,10 @@ translate_text : Helsinki-NLP/opus-mt-en-de
 
 # !streamlit run app.py & npx localtunnel --port 8501
 use this cmd to run the streamlit
+
+
+## **OUTPUTS**
+![1](https://github.com/akilans68/AI-Powered-Document-Understanding/assets/145629035/e27e09f1-9373-4924-a695-84c3d4225b2a)
+![2](https://github.com/akilans68/AI-Powered-Document-Understanding/assets/145629035/291cf8aa-17f7-4ed1-9547-816aea9b244c)
+![3](https://github.com/akilans68/AI-Powered-Document-Understanding/assets/145629035/6e0b6aaf-1650-482a-83a1-14cbdece6c7f)
+![4](https://github.com/akilans68/AI-Powered-Document-Understanding/assets/145629035/d3d58373-3776-43a4-8097-c95e856bbc8b)
