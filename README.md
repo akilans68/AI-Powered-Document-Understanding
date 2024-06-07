@@ -32,6 +32,8 @@ Text Translation: Translates text to a specified language using Hugging Face's t
 # Download the necessary NLTK data:
 
 import nltk
+
+
 nltk.download('punkt')
 
 # Set up your Hugging Face API key:
