@@ -70,6 +70,7 @@ def preprocess_text(text):
     text = clean_text(text)
     sentences = segment_sentences(text)
     tokenized_sentences = [tokenize_sentence(sent) for sent in sentences]
+    
     return tokenized_sentences
     
 # Information Extraction
