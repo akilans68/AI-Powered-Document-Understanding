@@ -228,7 +228,7 @@ translate_text : Helsinki-NLP/opus-mt-en-de
 # !wget -q -O - ipv4.icanhazip.com
 (it create a specific tunnel password)
 
-create an app.py and past the full code and save it 
+# After that create an app.py and past the full code and save it 
 
 # !streamlit run app.py & npx localtunnel --port 8501
 use this cmd to run the streamlit
