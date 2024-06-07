@@ -57,6 +57,7 @@ in the huggingface.co
 # PDF to Text Conversion
 # This function converts the content of a PDF file to text.
 
+
 def convert_pdf_to_text(pdf_path):
     
     doc = fitz.open(pdf_path)
